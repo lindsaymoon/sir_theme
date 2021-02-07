@@ -160,7 +160,3 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
         <? if (!defined("_INDEX_")) { ?>
           <h2 id="container_title"><span title="<?php echo get_text($g5['title']); ?>">
           <? echo get_head_title($g5['title']); ?></span></h2><?}?>
-
-          <?if(!defined("_INDEX_")){ // 메인페이지가 아니면 ->서브페이 ?>
-            메인이 아니죠!!!!!
-          <?}?>
